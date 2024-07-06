@@ -6,3 +6,8 @@
 -------------------------------------------------------------------
 ### PhD Thesis title in Arabic: تحسين تنبؤات أنظمة التوصية باستخدام نماذج تعلم الآلة 
 ### عنوان رسالة الدكتوراه بالإنجليزية: Improving Recommendation Systems' Predictions Using Machine Learning Models
+
+aaa
+![Amazon Scraper App](https://github.com/MasterMDPhD/Amazon-Books-Scraper/assets/174883391/c237c0d5-a304-4b7b-aeed-9031f0bbb97b)
+bbb
+![Amazon Scraper App](https://github.com/MasterMDPhD/Amazon-Books-Scraper/blob/main/app_figures/Amazon%20Scraper%20App.png)
