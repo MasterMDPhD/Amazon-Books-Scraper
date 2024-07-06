@@ -7,9 +7,9 @@
 ### PhD Thesis title in Arabic: تحسين تنبؤات أنظمة التوصية باستخدام نماذج تعلم الآلة 
 ### عنوان رسالة الدكتوراه بالإنجليزية: Improving Recommendation Systems' Predictions Using Machine Learning Models
 
-This is my first Python App ever built:
+### This is my first Python App ever built.
 
-Main Window of the App
+## Main Window of the App
 ![Amazon Scraper App](https://github.com/MasterMDPhD/Amazon-Books-Scraper/blob/main/app_figures/Amazon%20Scraper%20App.png)
 
 
