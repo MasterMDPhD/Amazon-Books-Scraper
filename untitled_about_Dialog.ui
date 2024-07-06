@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about_Dialog</class>
+ <widget class="QDialog" name="about_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>491</width>
+    <height>716</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Amazon Books Scraper - About</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>files/app_icon.jpg</normaloff>files/app_icon.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>481</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border: 1px solid lightgrey; 
+border-bottom-left-radius: 30px;
+border-top-right-radius: 30px;
+background-color:#ffffff;
+}</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>441</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox::title{
+color:white; 
+background-color: purple;
+border-radius:4px;padding:1px 3px 1px 3px; 
+margin-left:3;}</string>
+    </property>
+    <property name="title">
+     <string>Info.</string>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>431</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>The App includes 3 tabs: ISBNs to fetch, Fetch Errors, and All books. 
+ISBNs to fetch: It’s used to choose CSV file to fetch all ISBNs included and then save them to CSV file for later use. This tab has a progressbar to see the fetching progress and has two counts for books already in the database (no need to fetch again) and for fetched books.  It has a console box to see the get or error occurring during the fetching process. 
+Fetch Errors: It’s used to show a table of all errors occurred during fetching books contents and a counter for how many errors there are. Users can search for those error in google immediately by right clicking on them. Users can delete errors or save them to a CSV file. 
+All books: It’s used to show all books in the database and counter for how many books had been fetched so far. Users can right click on any books to see its content in a separate window or in web browser in amazon.com. This tab allows to save all books in a CSV file. </string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>441</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox::title{
+color:white; 
+background-color: purple;
+border-radius:4px;padding:1px 3px 1px 3px; 
+margin-left:3;}</string>
+    </property>
+    <property name="title">
+     <string>Info.</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>431</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>The App stores the fetched books contents to a local database (SQLite file) and gets ISBNs from a CSV file chosen by a user. Users can fetch and store fetched books or all books as CSV file for research usage later. </string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>441</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox::title{
+color:white; 
+background-color: purple;
+border-radius:4px;padding:1px 3px 1px 3px; 
+margin-left:3;}</string>
+    </property>
+    <property name="title">
+     <string>Info.</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>431</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Amazon Books Scraper is an application to fetch books contents and features from amazon.com famous website. The app uses ISBN ID of any books to scrape Title, Author, Category, Sub-Category, Description, Publisher, Year of Publication, Language, Number of Pages, and the Cover Image. </string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>310</y>
+      <width>121</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>48</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:0px solid;</string>
+    </property>
+    <property name="text">
+     <string> Tabs:</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>files/about_icons/tabs.png</normaloff>files/about_icons/tabs.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>36</width>
+      <height>36</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>201</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:0px solid;</string>
+    </property>
+    <property name="text">
+     <string> About The App:</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>files/menuBar_icons/about.png</normaloff>files/menuBar_icons/about.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>36</width>
+      <height>36</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>131</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:0px solid;</string>
+    </property>
+    <property name="text">
+     <string> Usage:</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>files/about_icons/usage.png</normaloff>files/about_icons/usage.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:0px solid; border-radius:15px;
+}
+
+QPushButton::hover{
+background-color : #EFE4B0;
+}
+
+QPushButton::pressed{
+border:3px solid grey;
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>files/contacts_icons/close.png</normaloff>files/contacts_icons/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>about_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>about_Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>432</x>
+     <y>27</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>-12</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

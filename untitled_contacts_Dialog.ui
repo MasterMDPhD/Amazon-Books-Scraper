@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>contacts_Dialog</class>
+ <widget class="QDialog" name="contacts_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>458</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Amazon Books Scraper - Contacts</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>files/app_icon.jpg</normaloff>files/app_icon.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>451</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border: 1px solid lightgrey; 
+border-bottom-left-radius: 30px;
+border-top-right-radius: 30px;
+background-color:#ffffff;
+}</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>411</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox::title{
+color:white; 
+background-color: purple;
+border-radius:4px;padding:1px 3px 1px 3px; 
+margin-left:3;}</string>
+    </property>
+    <property name="title">
+     <string>Boi.</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>301</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:darkred</string>
+     </property>
+     <property name="text">
+      <string>I’m Mohammed Deeb, born in 1990. 
+I love IT and data science so much. 
+I’ve used PyQT5 to build this app. 
+
+You can reach me through  the following contacts below:</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>81</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>files/contacts_icons/md90.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>411</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox::title{
+color:white; 
+background-color: purple;
+border-radius:4px;padding:1px 3px 1px 3px; 
+margin-left:3;}</string>
+    </property>
+    <property name="title">
+     <string>Contacts info.</string>
+    </property>
+    <widget class="QPushButton" name="contactResearchgate_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>391</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border:0px solid;}
+QPushButton::hover{ 
+color:blue;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton::pressed{ 
+color:red;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>  https://www.researchgate.net/profile/Mohammed-Deeb</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>files/contacts_icons/rg.png</normaloff>files/contacts_icons/rg.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="contactTwitter_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>311</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border:0px solid;}
+QPushButton::hover{ 
+color:blue;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton::pressed{ 
+color:red;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>  https://twitter.com/MohammedDeeb90</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>files/contacts_icons/twitter.png</normaloff>files/contacts_icons/twitter.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="contactKaggle_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>291</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border:0px solid;}
+QPushButton::hover{ 
+color:blue;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton::pressed{ 
+color:red;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>  https://www.kaggle.com/masteronepiece</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>files/contacts_icons/kaggle.png</normaloff>files/contacts_icons/kaggle.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="contactLinkedin_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>401</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border:0px solid;}
+QPushButton::hover{ 
+color:blue;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton::pressed{ 
+color:red;
+font: bold 8pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>  https://www.linkedin.com/in/mohammed-deeb-33696b9b</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>files/contacts_icons/linkedin.png</normaloff>files/contacts_icons/linkedin.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>180</y>
+       <width>261</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0px solid;</string>
+     </property>
+     <property name="text">
+      <string>  master_md_90@hotmail.com</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>files/contacts_icons/hotmail.png</normaloff>files/contacts_icons/hotmail.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>161</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0px solid;</string>
+     </property>
+     <property name="text">
+      <string>  +963 93 401 2244</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>files/contacts_icons/whatapp.png</normaloff>files/contacts_icons/whatapp.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="contacts_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:0px solid; border-radius:15px;
+}
+
+QPushButton::hover{
+background-color : #EFE4B0;
+}
+
+QPushButton::pressed{
+border:3px solid grey;
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>files/contacts_icons/close.png</normaloff>files/contacts_icons/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>301</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Amazon Books Scraper - Contacts</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>contacts_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>contacts_Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>406</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>371</x>
+     <y>-8</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
